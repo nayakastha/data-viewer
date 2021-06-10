@@ -1,12 +1,12 @@
-import 'package:data_app/core/colors.dart';
-import 'package:data_app/presentation/widgets/fade_animations.dart';
-import 'package:data_app/presentation/widgets/home_appbar.dart';
-import 'package:data_app/presentation/widgets/home_datapack.dart';
-import 'package:data_app/presentation/widgets/home_header.dart';
-import 'package:data_app/presentation/widgets/sim_card_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:mobiledata_usage/core/colors.dart';
+import 'package:mobiledata_usage/presentation/widgets/fade_animations.dart';
+import 'package:mobiledata_usage/presentation/widgets/home_appbar.dart';
+import 'package:mobiledata_usage/presentation/widgets/home_datapack.dart';
+import 'package:mobiledata_usage/presentation/widgets/home_header.dart';
+import 'package:mobiledata_usage/presentation/widgets/sim_card_widget.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key key, this.startController, this.endController})
