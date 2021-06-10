@@ -1,7 +1,7 @@
-import 'package:data_app/core/colors.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter/material.dart';
+import 'package:mobiledata_usage/core/colors.dart';
 
 import 'fade_animations.dart';
 

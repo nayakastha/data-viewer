@@ -1,7 +1,7 @@
-import 'package:data_app/core/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:mobiledata_usage/core/colors.dart';
 
 class SIMCardWidget extends StatelessWidget {
   const SIMCardWidget({

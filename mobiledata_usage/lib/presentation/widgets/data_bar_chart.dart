@@ -1,11 +1,11 @@
 import 'dart:math';
 
-import 'package:data_app/core/colors.dart';
-import 'package:data_app/presentation/widgets/sub_arc_painter.dart';
-import 'package:data_app/presentation/widgets/white_painter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:lottie/lottie.dart';
+import 'package:mobiledata_usage/core/colors.dart';
+import 'package:mobiledata_usage/presentation/widgets/sub_arc_painter.dart';
+import 'package:mobiledata_usage/presentation/widgets/white_painter.dart';
 
 import 'fade_animations.dart';
 import 'big_arc_painter.dart';

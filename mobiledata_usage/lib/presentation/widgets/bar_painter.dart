@@ -1,6 +1,6 @@
-import 'package:data_app/core/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:mobiledata_usage/core/colors.dart';
 
 class ChartPainter extends CustomPainter {
   final double value;
@@ -29,7 +29,8 @@ class ChartPainter extends CustomPainter {
       path.lineTo(25, 110 - end * value);
     }
     canvas.drawPath(path, b1Paint);
-    canvas.drawShadow(path.shift(const Offset(5, -10)), Colors.black, 20.0, true);
+    canvas.drawShadow(
+        path.shift(const Offset(5, -10)), Colors.black, 20.0, true);
   }
 
   @override

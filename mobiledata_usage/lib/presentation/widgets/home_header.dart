@@ -1,6 +1,5 @@
-
-import 'package:data_app/core/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:mobiledata_usage/core/colors.dart';
 
 import 'fade_animations.dart';
 
@@ -9,7 +8,9 @@ class HomeHeader extends StatelessWidget {
     Key key,
     @required AnimationController startController,
     @required AnimationController endController,
-  }) : _startController = startController, _endController = endController, super(key: key);
+  })  : _startController = startController,
+        _endController = endController,
+        super(key: key);
 
   final AnimationController _startController;
   final AnimationController _endController;
@@ -27,9 +28,7 @@ class HomeHeader extends StatelessWidget {
               child: Text(
             'Main balance',
             style: TextStyle(
-                color: kSwatch1,
-                fontWeight: FontWeight.bold,
-                fontSize: 16),
+                color: kSwatch1, fontWeight: FontWeight.bold, fontSize: 16),
           )),
         ),
         const SizedBox(
@@ -46,10 +45,7 @@ class HomeHeader extends StatelessWidget {
               style: TextStyle(
                   color: kSwatch5,
                   shadows: [
-                    Shadow(
-                        color: kSwatch3,
-                        blurRadius: 2,
-                        offset: Offset(3, 3))
+                    Shadow(color: kSwatch3, blurRadius: 2, offset: Offset(3, 3))
                   ],
                   fontSize: 50,
                   fontWeight: FontWeight.bold,

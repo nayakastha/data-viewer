@@ -1,7 +1,7 @@
 import 'dart:math';
 
-import 'package:data_app/core/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:mobiledata_usage/core/colors.dart';
 
 class WhitePainter extends CustomPainter {
   final double radius;
@@ -15,8 +15,8 @@ class WhitePainter extends CustomPainter {
         width: radius,
         height: radius);
 
-    canvas.drawArc(
-        _circle, -pi / 2, -1.25 * pi/ animationController.value, true, Paint()..color = kSwatch2);
+    canvas.drawArc(_circle, -pi / 2, -1.25 * pi / animationController.value,
+        true, Paint()..color = kSwatch2);
   }
 
   @override
