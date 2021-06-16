@@ -125,7 +125,7 @@ class _IndexPageState extends State<IndexPage> with TickerProviderStateMixin {
             style: const NeumorphicStyle(color: kSwatch2),
             child: SizedBox(
               height: 90,
-              width: double.maxFinite,
+              width: 400,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
