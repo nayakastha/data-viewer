@@ -28,7 +28,7 @@ class HomeHeader extends StatelessWidget {
               child: Text(
             'Main balance',
             style: TextStyle(
-                color: kSwatch1, fontWeight: FontWeight.bold, fontSize: 16),
+                color: kSwatch1, fontWeight: FontWeight.bold, fontSize: 26),
           )),
         ),
         const SizedBox(
@@ -41,7 +41,7 @@ class HomeHeader extends StatelessWidget {
           endController: _endController,
           child: const Center(
             child: Text(
-              '\$120.56',
+              '₹ 120.56',
               style: TextStyle(
                   color: kSwatch5,
                   shadows: [

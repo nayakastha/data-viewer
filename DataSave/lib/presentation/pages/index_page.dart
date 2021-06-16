@@ -125,7 +125,7 @@ class _IndexPageState extends State<IndexPage> with TickerProviderStateMixin {
             style: const NeumorphicStyle(color: kSwatch2),
             child: SizedBox(
               height: 90,
-              width: 400,
+              width: double.maxFinite,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -152,26 +152,6 @@ class _IndexPageState extends State<IndexPage> with TickerProviderStateMixin {
                       FontAwesomeIcons.signal,
                       color: _indexNotifier.value == 0 ? kSwatch3 : kSwatch5,
                       size: _indexNotifier.value == 0 ? 16 : 20,
-                    ),
-                  ),
-                  const NavigationBarItem(
-                    isAnimating: false,
-                    onPressed: null,
-                    depth: 4,
-                    child: Icon(
-                      FontAwesomeIcons.userAlt,
-                      color: kSwatch3,
-                      size: 16,
-                    ),
-                  ),
-                  const NavigationBarItem(
-                    isAnimating: false,
-                    onPressed: null,
-                    depth: 4,
-                    child: Icon(
-                      FontAwesomeIcons.cog,
-                      color: kSwatch3,
-                      size: 16,
                     ),
                   ),
                 ],

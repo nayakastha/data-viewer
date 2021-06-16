@@ -31,7 +31,7 @@ class SIMCardWidget extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       const Text(
-                        'SIM1 • Verizon',
+                        'SIM1 • JIO',
                         style: TextStyle(
                             color: kSwatch4, fontWeight: FontWeight.bold),
                       ),
@@ -47,7 +47,7 @@ class SIMCardWidget extends StatelessWidget {
                       ),
                       const Spacer(),
                       const Text(
-                        '7.56/10Gb',
+                        '1.56/2.00 Gb',
                         style: TextStyle(
                             fontSize: 16,
                             color: kSwatch4,

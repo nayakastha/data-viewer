@@ -88,7 +88,10 @@ class HomeDataPack extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.only(right: 10),
               child: Neumorphic(
-                style: NeumorphicStyle(color: kSwatch2),
+                style: NeumorphicStyle(
+                  color: kSwatch1,
+                  shape: NeumorphicShape.convex,
+                ),
                 boxShape:
                     NeumorphicBoxShape.roundRect(BorderRadius.circular(15)),
                 child: SizedBox(
@@ -104,7 +107,7 @@ class HomeDataPack extends StatelessWidget {
                             'PACKAGE',
                             style: TextStyle(
                                 fontSize: 12,
-                                color: kSwatch4,
+                                color: Colors.white,
                                 fontWeight: FontWeight.bold),
                           ),
                           const SizedBox(
@@ -114,7 +117,7 @@ class HomeDataPack extends StatelessWidget {
                             '+2 NEW',
                             style: TextStyle(
                                 fontSize: 10,
-                                color: kSwatch1,
+                                color: Colors.white70,
                                 fontWeight: FontWeight.bold),
                           ),
                         ],
@@ -124,14 +127,14 @@ class HomeDataPack extends StatelessWidget {
                             BorderRadius.circular(10)),
                         style: NeumorphicStyle(
                             depth: -10,
-                            color: kSwatch2,
+                            color: kSwatch1,
                             shape: NeumorphicShape.concave),
                         child: SizedBox(
                           height: 35,
                           width: 35,
                           child: Icon(
                             FontAwesomeIcons.archive,
-                            color: kSwatch1,
+                            color: Colors.white,
                             size: 14,
                           ),
                         ),

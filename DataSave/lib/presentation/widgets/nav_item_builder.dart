@@ -32,7 +32,7 @@ class NavigationBarItem extends StatelessWidget {
             style: NeumorphicStyle(
               color: kSwatch2,
               depth: _depth,
-              shape: NeumorphicShape.convex,
+              shape: NeumorphicShape.concave,
             ),
             boxShape: NeumorphicBoxShape.roundRect(BorderRadius.circular(10)),
             padding: const EdgeInsets.all(15),

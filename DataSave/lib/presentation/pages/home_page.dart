@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
   final AnimationController _endController;
   final GlobalKey<AnimatedListState> _key = GlobalKey<AnimatedListState>();
   final List<SIMCardWidget> _simLists =
-      List.generate(2, (index) => const SIMCardWidget());
+      List.generate(4, (index) => const SIMCardWidget());
   final List<Widget> _animationList = [];
 
   @override

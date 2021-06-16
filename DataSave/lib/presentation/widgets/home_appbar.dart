@@ -37,7 +37,7 @@ class HomeAppBar extends StatelessWidget {
                 height: 6,
               ),
               const Text(
-                'Sanjeev',
+                'Astha',
                 style: TextStyle(
                     color: kSwatch5, fontWeight: FontWeight.bold, fontSize: 16),
               )
@@ -52,8 +52,6 @@ class HomeAppBar extends StatelessWidget {
             child: const CircleAvatar(
               radius: 15,
               backgroundColor: Colors.white,
-              backgroundImage: NetworkImage(
-                  'https://media-exp1.licdn.com/dms/image/C5603AQHQGhYWooaJsA/profile-displayphoto-shrink_800_800/0/1596544415173?e=1617235200&v=beta&t=yd_U_N_mYyMFktB1VZfIN66XBcfa_TwyKy-mv6jfmfA'),
             ),
           )
         ],
