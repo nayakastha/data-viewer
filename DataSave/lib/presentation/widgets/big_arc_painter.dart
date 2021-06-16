@@ -11,10 +11,7 @@ class BigArcPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     const Gradient outerGradient = SweepGradient(
       center: Alignment.topCenter,
-      colors: <Color>[
-        Color(0xffDD767B),
-        Color(0xffE8969B),
-      ],
+      colors: <Color>[kSwatch3, kSwatch5],
       stops: [
         0.3,
         0.4,

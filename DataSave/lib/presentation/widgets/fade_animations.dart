@@ -50,24 +50,12 @@ class _FadeFromUpAnimationState extends State<FadeFromUpAnimation>
       );
     }
 
-    AnimationController _currentController() {
-      switch (widget.endController.status == AnimationStatus.forward) {
-        case true:
-          return widget.endController;
-
-          break;
-        default:
-          return widget.startController;
-      }
-    }
-
     return SlideTransition(
         position: _animation,
         child: Opacity(
           opacity: Tween(begin: 0.0, end: 1.0)
               .animate(CurvedAnimation(
-                  parent: widget.startController,
-                  curve: Curves.easeOut))
+                  parent: widget.startController, curve: Curves.easeOut))
               .value,
           child: widget.child,
         ));

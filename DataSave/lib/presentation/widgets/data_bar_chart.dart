@@ -175,7 +175,7 @@ class DataPieChart extends StatelessWidget {
                     Text(
                       '/ 10Gb',
                       style: TextStyle(
-                          color: kSwatch1,
+                          color: kSwatch4,
                           fontSize: 12,
                           fontWeight: FontWeight.normal),
                     ),

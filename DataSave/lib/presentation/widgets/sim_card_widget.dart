@@ -42,7 +42,7 @@ class SIMCardWidget extends StatelessWidget {
                         '5G/4G',
                         style: TextStyle(
                             fontSize: 12,
-                            color: kSwatch1,
+                            color: kSwatch4,
                             fontWeight: FontWeight.normal),
                       ),
                       const Spacer(),

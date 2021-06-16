@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'dart:ui';
 
+import 'package:data_save/core/colors.dart';
 import 'package:flutter/material.dart';
 
 class GearPainter extends CustomPainter {
@@ -11,7 +12,7 @@ class GearPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final Paint tickPaint = Paint()
       ..strokeCap = StrokeCap.butt
-      ..color = const Color(0xffF5D4D6);
+      ..color = kSwatch3;
     double tickMarkLength;
     final double angle = pi / 15;
     final radius = size.width / 2;
